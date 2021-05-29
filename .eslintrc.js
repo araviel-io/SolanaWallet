@@ -18,6 +18,7 @@ module.exports = {
     ecmaVersion: 8,
   },
   rules: {
+    
     'no-trailing-spaces': ['error'],
     'import/first': ['error'],
     'import/no-commonjs': ['error'],
@@ -32,7 +33,7 @@ module.exports = {
       },
     ],
     indent: ['error', 2, {MemberExpression: 0, SwitchCase: 1}],
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': ['error', 'windows'],
     'no-console': [0],
     quotes: [
       'error',
